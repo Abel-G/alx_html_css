@@ -1,0 +1,25 @@
+.first-section {
+    background-image: url(images/Object.png);
+    background-position: top;
+    background-repeat: no-repeat;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+    display: inline;
+}
+li a {
+    color: azure;
+    text-decoration: none;
+    padding: 0 20px;
+    font-family: Georgia;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin:  20px 100px;
+}
+
