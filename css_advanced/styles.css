@@ -23,7 +23,46 @@ nav{
     margin:  20px 100px;
 }
 
-.header-div h1
+.header-div
 {
+margin: 0 auto;
   text-align: center;
+}
+.header-div h1 {
+    color:aliceblue;
+    font-size: 100px;
+    margin-bottom: 20px;
+}
+.header-div span {
+    color:aliceblue;
+    margin: 20px;
+}
+.header-div button {
+display: block;
+margin: 20px auto;
+background-color: blueviolet;
+border: none;
+padding: 10px 20px;
+border-radius: 20px;
+color:aliceblue;
+}
+
+.pros h2 {
+    text-align: center;
+    margin: 50px 0;
+    color:aliceblue;
+}
+#first-word {
+    color:blueviolet
+}
+
+.pics {
+    display: flex;
+    justify-content: space-evenly;
+}
+.pics p,
+.pics h3
+{
+    text-align: center;
+    color: aliceblue;
 }
