@@ -2,6 +2,8 @@
     background-image: url(images/Object.png);
     background-position: top;
     background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
 }
 ul {
     list-style-type: none;
@@ -37,7 +39,8 @@ margin: 0 auto;
     color:aliceblue;
     margin: 20px;
 }
-.header-div button {
+.header-div button,
+.membership button {
 display: block;
 margin: 20px auto;
 background-color: blueviolet;
@@ -47,16 +50,18 @@ border-radius: 20px;
 color:aliceblue;
 }
 
-.pros h2 {
+.pros h2
+ {
     text-align: center;
     margin: 50px 0;
     color:aliceblue;
 }
-#first-word {
+.first-word {
     color:blueviolet
 }
 
 .pics {
+    margin-top: 250px;
     display: flex;
     justify-content: space-evenly;
 }
@@ -65,4 +70,126 @@ color:aliceblue;
 {
     text-align: center;
     color: aliceblue;
+}
+.witness {
+    background-color: blueviolet;
+    margin-top: 30px;
+    width: 100%;
+    padding: 50px;
+    display: flex;
+    justify-content:space-evenly;
+}
+.witness blockquote,
+.witness h3,
+.witness p {
+    color:aliceblue;
+    margin: 0;
+    padding: 10px 0;
+    text-indent: 0;
+}
+.videos h2,
+.membership h2{
+    text-align: center;
+    margin: 50px 0;
+    color:rgb(67, 67, 67);
+}
+section.videos {
+    text-align: center;
+    margin:auto;
+}
+.videos > div {
+    display: inline-block;
+    width: 15%;
+    margin: 0 1%;
+    vertical-align: top;
+    text-align: left;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #fff;
+}
+.Phillip img{
+    width: 30px;
+    height:  30px;
+}
+
+.Phillip {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+
+.Phillip h4 {
+    margin-left: 20px;
+    color:blueviolet;
+}
+.stars {
+    display: flex;
+    color:blueviolet;
+}
+.rating {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.rating p {
+    color:blueviolet;
+}
+.membership {
+    background-color: black;
+    padding: 30px;
+}
+.membership h2 {
+    padding: 50px;
+    color:#fff;
+}
+.membership-type {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.membership-type p,
+.membership-type h3
+{
+    text-align: center;
+    color: aliceblue;
+}
+.membership-type img {
+    display: block;
+    margin: auto;
+}
+.faq-section h2 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: lighter;
+
+}
+.faq {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 30px;
+    margin: 0 auto;
+    width: 650px;
+}
+.sm-icons {
+    color:#fff;
+}
+.footing {
+    background-color: black;
+}
+.footing div {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    padding: 20px 100px;
+}
+.sm-icons i {
+    margin: 20px;
+}
+.footing p {
+    color:#fff;
+    text-align: center;
+    padding: 20px;
 }
