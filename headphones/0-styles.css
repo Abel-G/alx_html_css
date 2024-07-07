@@ -107,6 +107,8 @@ nav{
     margin: 30px auto;
     text-decoration: none;
     width: 300px;
+    outline: 0;
+    border-width: 0 0 1px;
 }
 .footing {
     background-color: rgb(27, 29, 47);
